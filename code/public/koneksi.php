@@ -1,7 +1,7 @@
 <?php
 $host = "192.168.100.48:7306"; // server
-$user = "221196"; // username
-$pass = ""; // password
+$user = "root"; // username
+$pass = "221196"; // password
 $database = "datamahasiswa"; // nama database
  
 $koneksi = mysqli_connect($host, $user, $pass, $database); // menggunakan mysqli_connect
